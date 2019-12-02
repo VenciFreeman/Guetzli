@@ -2,7 +2,7 @@
 
 # Zynq Project: Guetzli
 
-[![Generic badge](https://img.shields.io/badge/Language-C++-red.svg)](https://github.com/VenciFreeman/ZynqPrj)[![Generic badge](https://img.shields.io/badge/Hardware-Zynq-orange.svg)](https://github.com/VenciFreeman/ZynqPrj)[![Generic badge](https://img.shields.io/badge/Deadline-Dec 27, 2019-yellow.svg)]( https://github.com/VenciFreeman/ZynqPrj)[![Generic badge](https://img.shields.io/badge/Build-Passing-green.svg)]( https://github.com/VenciFreeman/ZynqPrj)[![Generic badge](https://img.shields.io/badge/License-Apache 2.0-blue.svg)]( https://github.com/VenciFreeman/ZynqPrj/blob/master/LICENSE)[![Generic badge](https://img.shields.io/badge/Thank-Google-purple.svg)]( https://github.com/VenciFreeman/ZynqPrj) 
+[![Generic badge](https://img.shields.io/badge/Language-C++-red.svg)](https://github.com/VenciFreeman/ZynqPrj)[![Generic badge](https://img.shields.io/badge/Hardware-Zynq-orange.svg)](https://github.com/VenciFreeman/ZynqPrj)[![Generic badge](https://img.shields.io/badge/Deadline-Dec_27_2019-yellow.svg)]( https://github.com/VenciFreeman/ZynqPrj)[![Generic badge](https://img.shields.io/badge/Build-Passing-green.svg)]( https://github.com/VenciFreeman/ZynqPrj)[![Generic badge](https://img.shields.io/badge/License-Apache_2.0-blue.svg)]( https://github.com/VenciFreeman/ZynqPrj/blob/master/LICENSE)[![Generic badge](https://img.shields.io/badge/Thank-Google-purple.svg)]( https://github.com/VenciFreeman/ZynqPrj) 
 
 ## What is this repo?
 
