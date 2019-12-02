@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\venci\documents\github\guetzli\third_party\butteraugli\butteraugli</FILEPATH>
+      <FILENAME>butteraugli.cc</FILENAME>
+      <LINE>147</LINE>
+      <COLUMN>41</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '*' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '*' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>butteraugli::ComputeKernel</FUNCTION>
+    <DECORATED>?ComputeKernel@butteraugli@@YA?AV?$vector@MV?$allocator@M@std@@@std@@M@Z</DECORATED>
+    <FUNCLINE>145</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\venci\documents\github\guetzli\third_party\butteraugli\butteraugli</FILEPATH>
+      <FILENAME>butteraugli.cc</FILENAME>
+      <LINE>147</LINE>
+      <COLUMN>33</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '*' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '*' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>butteraugli::ComputeKernel</FUNCTION>
+    <DECORATED>?ComputeKernel@butteraugli@@YA?AV?$vector@MV?$allocator@M@std@@@std@@M@Z</DECORATED>
+    <FUNCLINE>145</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\venci\documents\github\guetzli\third_party\butteraugli\butteraugli</FILEPATH>
+      <FILENAME>butteraugli.cc</FILENAME>
+      <LINE>664</LINE>
+      <COLUMN>28</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '-' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '-' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>butteraugli::L2Diff</FUNCTION>
+    <DECORATED>?L2Diff@butteraugli@@YAXABV?$Image@M@1@0NPIAV21@@Z</DECORATED>
+    <FUNCLINE>654</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\venci\documents\github\guetzli\third_party\butteraugli\butteraugli</FILEPATH>
+      <FILENAME>butteraugli.cc</FILENAME>
+      <LINE>687</LINE>
+      <COLUMN>28</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '-' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '-' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>butteraugli::L2DiffAsymmetric</FUNCTION>
+    <DECORATED>?L2DiffAsymmetric@butteraugli@@YAXABV?$Image@M@1@0NNPIAV21@@Z</DECORATED>
+    <FUNCLINE>672</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\venci\documents\github\guetzli\third_party\butteraugli\butteraugli</FILEPATH>
+      <FILENAME>butteraugli.cc</FILENAME>
+      <LINE>1726</LINE>
+      <COLUMN>52</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '+' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '+' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>butteraugli::DiffPrecompute</FUNCTION>
+    <DECORATED>?DiffPrecompute@butteraugli@@YA?AV?$Image@M@1@ABV21@0@Z</DECORATED>
+    <FUNCLINE>1699</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\venci\documents\github\guetzli\third_party\butteraugli\butteraugli</FILEPATH>
+      <FILENAME>butteraugli.cc</FILENAME>
+      <LINE>1728</LINE>
+      <COLUMN>52</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '+' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '+' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>butteraugli::DiffPrecompute</FUNCTION>
+    <DECORATED>?DiffPrecompute@butteraugli@@YA?AV?$Image@M@1@ABV21@0@Z</DECORATED>
+    <FUNCLINE>1699</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\venci\documents\github\guetzli\third_party\butteraugli\butteraugli</FILEPATH>
+      <FILENAME>butteraugli.cc</FILENAME>
+      <LINE>1968</LINE>
+      <COLUMN>38</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '-' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '-' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>butteraugli::`anonymous-namespace'::ScoreToRgb</FUNCTION>
+    <DECORATED>?ScoreToRgb@?A0xa8714de8@butteraugli@@YAXNNNQAE@Z</DECORATED>
+    <FUNCLINE>1938</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\venci\documents\github\guetzli\third_party\butteraugli\butteraugli</FILEPATH>
+      <FILENAME>butteraugli.cc</FILENAME>
+      <LINE>1967</LINE>
+      <COLUMN>64</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '-' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '-' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>butteraugli::`anonymous-namespace'::ScoreToRgb</FUNCTION>
+    <DECORATED>?ScoreToRgb@?A0xa8714de8@butteraugli@@YAXNNNQAE@Z</DECORATED>
+    <FUNCLINE>1938</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\venci\documents\github\guetzli\third_party\butteraugli\butteraugli</FILEPATH>
+      <FILENAME>butteraugli.h</FILENAME>
+      <LINE>256</LINE>
+      <COLUMN>9</COLUMN>
+    </SFA>
+    <DEFECTCODE>26439</DEFECTCODE>
+    <DESCRIPTION>This kind of function may not throw. Declare it 'noexcept' (f.6).</DESCRIPTION>
+    <FUNCTION>butteraugli::Image&lt;float&gt;::=</FUNCTION>
+    <DECORATED>??4?$Image@M@butteraugli@@QAEAAV01@$$QAV01@@Z</DECORATED>
+    <FUNCLINE>256</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\venci\documents\github\guetzli\third_party\butteraugli\butteraugli</FILEPATH>
+      <FILENAME>butteraugli.h</FILENAME>
+      <LINE>249</LINE>
+      <COLUMN>2</COLUMN>
+    </SFA>
+    <DEFECTCODE>26439</DEFECTCODE>
+    <DESCRIPTION>This kind of function may not throw. Declare it 'noexcept' (f.6).</DESCRIPTION>
+    <FUNCTION>butteraugli::Image&lt;float&gt;::{ctor}</FUNCTION>
+    <DECORATED>??0?$Image@M@butteraugli@@QAE@$$QAV01@@Z</DECORATED>
+    <FUNCLINE>249</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+</DEFECTS>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\venci\documents\github\guetzli\guetzli</FILEPATH>
+      <FILENAME>jpeg_data.h</FILENAME>
+      <LINE>142</LINE>
+      <COLUMN>2</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'guetzli::JPEGComponent::num_blocks' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>guetzli::JPEGComponent::{ctor}</FUNCTION>
+    <DECORATED>??0JPEGComponent@guetzli@@QAE@XZ</DECORATED>
+    <FUNCLINE>142</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\venci\documents\github\guetzli\guetzli</FILEPATH>
+      <FILENAME>guetzli.cc</FILENAME>
+      <LINE>296</LINE>
+      <COLUMN>41</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '&lt;&lt;' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '&lt;&lt;' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>main</FUNCTION>
+    <DECORATED>main</DECORATED>
+    <FUNCLINE>232</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\venci\documents\github\guetzli\guetzli</FILEPATH>
+      <FILENAME>guetzli.cc</FILENAME>
+      <LINE>313</LINE>
+      <COLUMN>41</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '&lt;&lt;' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '&lt;&lt;' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>main</FUNCTION>
+    <DECORATED>main</DECORATED>
+    <FUNCLINE>232</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+</DEFECTS>

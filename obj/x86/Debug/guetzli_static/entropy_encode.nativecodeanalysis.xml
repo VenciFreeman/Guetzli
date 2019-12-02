@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\venci\documents\github\guetzli\guetzli</FILEPATH>
+      <FILENAME>entropy_encode.h</FILENAME>
+      <LINE>29</LINE>
+      <COLUMN>2</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'guetzli::HuffmanTree::total_count_' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>guetzli::HuffmanTree::{ctor}</FUNCTION>
+    <DECORATED>??0HuffmanTree@guetzli@@QAE@XZ</DECORATED>
+    <FUNCLINE>29</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\venci\documents\github\guetzli\guetzli</FILEPATH>
+      <FILENAME>entropy_encode.h</FILENAME>
+      <LINE>29</LINE>
+      <COLUMN>2</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'guetzli::HuffmanTree::index_right_or_value_' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>guetzli::HuffmanTree::{ctor}</FUNCTION>
+    <DECORATED>??0HuffmanTree@guetzli@@QAE@XZ</DECORATED>
+    <FUNCLINE>29</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\venci\documents\github\guetzli\guetzli</FILEPATH>
+      <FILENAME>entropy_encode.h</FILENAME>
+      <LINE>29</LINE>
+      <COLUMN>2</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'guetzli::HuffmanTree::index_left_' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>guetzli::HuffmanTree::{ctor}</FUNCTION>
+    <DECORATED>??0HuffmanTree@guetzli@@QAE@XZ</DECORATED>
+    <FUNCLINE>29</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+</DEFECTS>
