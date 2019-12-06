@@ -19,7 +19,7 @@ This project is a teamwork project. All 3 collaborators are from School of Micro
 |   Yang Wenxi    |    [@VenciFreeman](https://github.com/VenciFreeman)     |
 | :-------------: | :-----------------------------------------------------: |
 |  **Luo Tian**   |  [**@luotian12345**](https://github.com/luotian12345)   |
-| **Liu Jianwei** | [**liujianwei0225**](https://github.com/liujianwei0225) |
+| **Liu Jianwei** | [**@liujianwei0225**](https://github.com/liujianwei0225) |
 
 ## How to use it?
 
