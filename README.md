@@ -1,4 +1,5 @@
 <p align="center"><img src="https://cloud.githubusercontent.com/assets/203457/24553916/1f3f88b6-162c-11e7-990a-731b2560f15c.png" alt="Guetzli" width="64"></p>
+
 # Zynq Project: Guetzli
 
  ![Generic badge](https://img.shields.io/badge/Language-C++-red.svg) [![Generic badge](https://img.shields.io/badge/Hardware-Zynq-orange.svg)](https://github.com/VenciFreeman/ZynqPrj) [![Generic badge](https://img.shields.io/badge/Deadline-Dec_27_2019-yellow.svg)]( https://github.com/VenciFreeman/ZynqPrj) [![Generic badge](https://img.shields.io/badge/Build-Passing-green.svg)]( https://github.com/VenciFreeman/ZynqPrj) [![Generic badge](https://img.shields.io/badge/License-Apache_2.0-blue.svg)]( https://github.com/VenciFreeman/ZynqPrj/blob/master/LICENSE) [![Generic badge](https://img.shields.io/badge/Thank-Google-purple.svg)]( https://github.com/VenciFreeman/ZynqPrj)
