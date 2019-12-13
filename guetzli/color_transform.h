@@ -14,6 +14,19 @@
  * limitations under the License.
  */
 
+/*
+ * Note:
+ * 
+ * This file is a header for color transform, it includes some matrixs.
+ * We can't modify this file, otherwise the compression effect will decrease.
+ * The data type is int.
+ * 
+ * Any question, please contact other team members. 
+ * 
+ * 19/12/13, @VenciFreman. 
+ * Mail: vencifreeman16@sjtu.edu.cn.
+ */
+
 #ifndef GUETZLI_COLOR_TRANSFORM_H_
 #define GUETZLI_COLOR_TRANSFORM_H_
 

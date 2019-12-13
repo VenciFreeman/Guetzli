@@ -14,6 +14,27 @@
  * limitations under the License.
  */
 
+/*
+ * Note:
+ * 
+ * This file is a header for butteraugli comparator.
+ * It's another Google open source project. More info please view
+ * 
+ * https://github.com/google/butteraugli
+ * 
+ * This file will compare the old image and new image.
+ * If it thinks the new image is acceptable, it will get new image;
+ * if not, it will regenerate a new one.
+ * The whole project works based on this. That's why it's so slow.
+ * 
+ * I don't think this file can be modified. Or we can optimize the data type.
+ * 
+ * Any question, please contact other team members. 
+ * 
+ * 19/12/13, @VenciFreman. 
+ * Mail: vencifreeman16@sjtu.edu.cn.
+ */
+
 #ifndef GUETZLI_BUTTERAUGLI_COMPARATOR_H_
 #define GUETZLI_BUTTERAUGLI_COMPARATOR_H_
 

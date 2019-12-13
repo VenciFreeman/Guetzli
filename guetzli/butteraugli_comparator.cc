@@ -14,6 +14,28 @@
  * limitations under the License.
  */
 
+/*
+ * Note:
+ * 
+ * This file is the cc file of butteraugli compartaor.
+ * It's another Google open source project. More info please view
+ * 
+ * https://github.com/google/butteraugli
+ * 
+ * This file will compare the old image and new image.
+ * If it thinks the new image is acceptable, it will get new image;
+ * if not, it will regenerate a new one.
+ * The whole project works based on this. That's why it's so slow.
+ * The data type is size_t, uint8_t, double and float.
+ * Maybe we can change the data type to improve the execute speed.
+ * And we can notice that there are some loops which can be optimized.
+ * 
+ * Any question, please contact other team members. 
+ * 
+ * 19/12/13, @VenciFreman. 
+ * Mail: vencifreeman16@sjtu.edu.cn.
+ */
+
 #include "guetzli/butteraugli_comparator.h"
 
 #include <algorithm>
@@ -378,6 +400,16 @@ void ButteraugliFFTSquared(double block[kBlockSize]) {
     block[i] *= global_mul;
   }
 }
+/*
+ * Note:
+ * 
+ * These loops can be optimized in HLS. We can use PIPELINE or UNROLL.
+ * 
+ * Any question, please contact other team members. 
+ * 
+ * 19/12/13, @VenciFreman. 
+ * Mail: vencifreeman16@sjtu.edu.cn.
+ */
 
 void ButteraugliBlockDiff(double xyb0[3 * kBlockSize],
                           double xyb1[3 * kBlockSize],
@@ -453,6 +485,16 @@ void ButteraugliComparator::SwitchBlock(int block_x, int block_y,
     }
   }
 }
+/*
+ * Note:
+ * 
+ * These loops can be optimized in HLS. We can use PIPELINE or UNROLL.
+ * 
+ * Any question, please contact other team members. 
+ * 
+ * 19/12/13, @VenciFreman. 
+ * Mail: vencifreeman16@sjtu.edu.cn.
+ */
 
 double ButteraugliComparator::CompareBlock(const OutputImage& img,
                                            int off_x, int off_y) const {
@@ -486,6 +528,16 @@ double ButteraugliComparator::CompareBlock(const OutputImage& img,
   }
   return sqrt(diff);
 }
+/*
+ * Note:
+ * 
+ * These loops can be optimized in HLS. We can use PIPELINE or UNROLL.
+ * 
+ * Any question, please contact other team members. 
+ * 
+ * 19/12/13, @VenciFreman. 
+ * Mail: vencifreeman16@sjtu.edu.cn.
+ */
 
 float ButteraugliComparator::BlockErrorLimit() const {
   return target_distance_;
@@ -556,6 +608,16 @@ void ButteraugliComparator::ComputeBlockErrorAdjustmentWeights(
     }
   }
 }
+/*
+ * Note:
+ * 
+ * These loops can be optimized in HLS. We can use PIPELINE or UNROLL.
+ * 
+ * Any question, please contact other team members. 
+ * 
+ * 19/12/13, @VenciFreman. 
+ * Mail: vencifreeman16@sjtu.edu.cn.
+ */
 
 double ButteraugliComparator::ScoreOutputSize(int size) const {
   return ScoreJPEG(distance_, size, target_distance_);
