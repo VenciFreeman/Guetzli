@@ -1,11 +1,6 @@
 ﻿  butteraugli_comparator.cc
-c:\users\venci\documents\github\guetzli\guetzli\butteraugli_comparator.cc(42): warning C4244: “=”: 从“const double”转换到“float”，可能丢失数据
-c:\users\venci\documents\github\guetzli\guetzli\butteraugli_comparator.cc(73): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
-c:\users\venci\documents\github\guetzli\guetzli\butteraugli_comparator.cc(446): warning C4244: “=”: 从“const double”转换到“_Ty”，可能丢失数据
-          with
-          [
-              _Ty=float
-          ]
+C:\Users\罗恬\Documents\GitHub\Guetzli\guetzli\butteraugli_comparator.cc(42,43): warning C4244: “=”: 从“const double”转换到“float”，可能丢失数据
+C:\Users\罗恬\Documents\GitHub\Guetzli\guetzli\butteraugli_comparator.cc(73,57): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
   dct_double.cc
   debug_print.cc
   entropy_encode.cc
@@ -16,239 +11,244 @@ c:\users\venci\documents\github\guetzli\guetzli\butteraugli_comparator.cc(446): 
   jpeg_data_decoder.cc
   jpeg_data_encoder.cc
   jpeg_data_reader.cc
-c:\users\venci\documents\github\guetzli\guetzli\jpeg_data_reader.cc(473): warning C4244: “return”: 从“uint64_t”转换到“int”，可能丢失数据
+C:\Users\罗恬\Documents\GitHub\Guetzli\guetzli\butteraugli_comparator.cc(446,70): warning C4244: “=”: 从“const double”转换到“_Ty”，可能丢失数据
+C:\Users\罗恬\Documents\GitHub\Guetzli\guetzli\butteraugli_comparator.cc(446,70): warning C4244:         with
+C:\Users\罗恬\Documents\GitHub\Guetzli\guetzli\butteraugli_comparator.cc(446,70): warning C4244:         [
+C:\Users\罗恬\Documents\GitHub\Guetzli\guetzli\butteraugli_comparator.cc(446,70): warning C4244:             _Ty=float
+C:\Users\罗恬\Documents\GitHub\Guetzli\guetzli\butteraugli_comparator.cc(446,70): warning C4244:         ]
   jpeg_data_writer.cc
   jpeg_huffman_decode.cc
   output_image.cc
   preprocess_downsample.cc
-c:\users\venci\documents\github\guetzli\guetzli\preprocess_downsample.cc(318): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+C:\Users\罗恬\Documents\GitHub\Guetzli\guetzli\jpeg_data_reader.cc(473,12): warning C4244: “return”: 从“uint64_t”转换到“int”，可能丢失数据
   processor.cc
-c:\users\venci\documents\github\guetzli\guetzli\processor.cc(110): warning C4018: “<”: 有符号/无符号不匹配
-c:\users\venci\documents\github\guetzli\guetzli\processor.cc(648): warning C4018: “<”: 有符号/无符号不匹配
-c:\users\venci\documents\github\guetzli\guetzli\processor.cc(688): warning C4244: “初始化”: 从“float”转换到“int”，可能丢失数据
+C:\Users\罗恬\Documents\GitHub\Guetzli\guetzli\preprocess_downsample.cc(318,16): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+C:\Users\罗恬\Documents\GitHub\Guetzli\guetzli\processor.cc(110,23): warning C4018: “<”: 有符号/无符号不匹配
+C:\Users\罗恬\Documents\GitHub\Guetzli\guetzli\processor.cc(648,45): warning C4018: “<”: 有符号/无符号不匹配
   quality.cc
   quantize.cc
   score.cc
   butteraugli.cc
-c:\users\venci\documents\github\guetzli\third_party\butteraugli\butteraugli\butteraugli.cc(147): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
-c:\users\venci\documents\github\guetzli\third_party\butteraugli\butteraugli\butteraugli.cc(147): warning C4244: “初始化”: 从“double”转换到“const float”，可能丢失数据
-c:\users\venci\documents\github\guetzli\third_party\butteraugli\butteraugli\butteraugli.cc(148): warning C4244: “参数”: 从“float”转换到“const _Ty”，可能丢失数据
-          with
-          [
-              _Ty=int
-          ]
-c:\users\venci\documents\github\guetzli\third_party\butteraugli\butteraugli\butteraugli.cc(164): warning C4018: “<”: 有符号/无符号不匹配
-c:\users\venci\documents\github\guetzli\third_party\butteraugli\butteraugli\butteraugli.cc(195): warning C4018: “<=”: 有符号/无符号不匹配
-c:\users\venci\documents\github\guetzli\third_party\butteraugli\butteraugli\butteraugli.cc(198): warning C4018: “<”: 有符号/无符号不匹配
-c:\users\venci\documents\github\guetzli\third_party\butteraugli\butteraugli\butteraugli.cc(220): warning C4018: “<”: 有符号/无符号不匹配
-c:\users\venci\documents\github\guetzli\third_party\butteraugli\butteraugli\butteraugli.cc(331): warning C4305: “参数”: 从“const double”到“float”截断
-c:\users\venci\documents\github\guetzli\third_party\butteraugli\butteraugli\butteraugli.cc(351): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
-c:\users\venci\documents\github\guetzli\third_party\butteraugli\butteraugli\butteraugli.cc(352): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
-c:\users\venci\documents\github\guetzli\third_party\butteraugli\butteraugli\butteraugli.cc(353): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
-c:\users\venci\documents\github\guetzli\third_party\butteraugli\butteraugli\butteraugli.cc(412): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
-c:\users\venci\documents\github\guetzli\third_party\butteraugli\butteraugli\butteraugli.cc(436): warning C4305: “*=”: 从“double”到“float”截断
-c:\users\venci\documents\github\guetzli\third_party\butteraugli\butteraugli\butteraugli.cc(440): warning C4305: “*=”: 从“double”到“float”截断
-c:\users\venci\documents\github\guetzli\third_party\butteraugli\butteraugli\butteraugli.cc(464): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
-c:\users\venci\documents\github\guetzli\third_party\butteraugli\butteraugli\butteraugli.cc(483): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
-c:\users\venci\documents\github\guetzli\third_party\butteraugli\butteraugli\butteraugli.cc(510): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
-c:\users\venci\documents\github\guetzli\third_party\butteraugli\butteraugli\butteraugli.cc(510): warning C4305: “参数”: 从“const double”到“float”截断
-c:\users\venci\documents\github\guetzli\third_party\butteraugli\butteraugli\butteraugli.cc(519): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
-c:\users\venci\documents\github\guetzli\third_party\butteraugli\butteraugli\butteraugli.cc(519): warning C4305: “参数”: 从“const double”到“float”截断
-c:\users\venci\documents\github\guetzli\third_party\butteraugli\butteraugli\butteraugli.cc(531): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
-c:\users\venci\documents\github\guetzli\third_party\butteraugli\butteraugli\butteraugli.cc(531): warning C4305: “参数”: 从“const double”到“float”截断
-c:\users\venci\documents\github\guetzli\third_party\butteraugli\butteraugli\butteraugli.cc(540): warning C4305: “参数”: 从“const double”到“float”截断
-c:\users\venci\documents\github\guetzli\third_party\butteraugli\butteraugli\butteraugli.cc(549): warning C4305: “参数”: 从“const double”到“float”截断
-c:\users\venci\documents\github\guetzli\third_party\butteraugli\butteraugli\butteraugli.cc(568): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
-c:\users\venci\documents\github\guetzli\third_party\butteraugli\butteraugli\butteraugli.cc(568): warning C4305: “参数”: 从“const double”到“float”截断
-c:\users\venci\documents\github\guetzli\third_party\butteraugli\butteraugli\butteraugli.cc(572): warning C4305: “初始化”: 从“double”到“float”截断
-c:\users\venci\documents\github\guetzli\third_party\butteraugli\butteraugli\butteraugli.cc(573): warning C4305: “初始化”: 从“double”到“float”截断
-c:\users\venci\documents\github\guetzli\third_party\butteraugli\butteraugli\butteraugli.cc(575): warning C4305: “初始化”: 从“double”到“float”截断
-c:\users\venci\documents\github\guetzli\third_party\butteraugli\butteraugli\butteraugli.cc(576): warning C4305: “初始化”: 从“double”到“float”截断
-c:\users\venci\documents\github\guetzli\third_party\butteraugli\butteraugli\butteraugli.cc(585): warning C4305: “参数”: 从“const double”到“float”截断
-c:\users\venci\documents\github\guetzli\third_party\butteraugli\butteraugli\butteraugli.cc(595): warning C4305: “参数”: 从“const double”到“float”截断
-c:\users\venci\documents\github\guetzli\third_party\butteraugli\butteraugli\butteraugli.cc(596): warning C4305: “参数”: 从“const double”到“float”截断
-c:\users\venci\documents\github\guetzli\third_party\butteraugli\butteraugli\butteraugli.cc(639): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
-c:\users\venci\documents\github\guetzli\third_party\butteraugli\butteraugli\butteraugli.cc(643): warning C4244: “参数”: 从“const double”转换到“float”，可能丢失数据
-c:\users\venci\documents\github\guetzli\third_party\butteraugli\butteraugli\butteraugli.cc(649): warning C4244: “+=”: 从“double”转换到“float”，可能丢失数据
-c:\users\venci\documents\github\guetzli\third_party\butteraugli\butteraugli\butteraugli.cc(665): warning C4244: “+=”: 从“double”转换到“float”，可能丢失数据
-c:\users\venci\documents\github\guetzli\third_party\butteraugli\butteraugli\butteraugli.cc(688): warning C4244: “+=”: 从“double”转换到“float”，可能丢失数据
-c:\users\venci\documents\github\guetzli\third_party\butteraugli\butteraugli\butteraugli.cc(698): warning C4244: “+=”: 从“double”转换到“float”，可能丢失数据
-c:\users\venci\documents\github\guetzli\third_party\butteraugli\butteraugli\butteraugli.cc(701): warning C4244: “+=”: 从“double”转换到“float”，可能丢失数据
-c:\users\venci\documents\github\guetzli\third_party\butteraugli\butteraugli\butteraugli.cc(706): warning C4244: “+=”: 从“double”转换到“float”，可能丢失数据
-c:\users\venci\documents\github\guetzli\third_party\butteraugli\butteraugli\butteraugli.cc(709): warning C4244: “+=”: 从“double”转换到“float”，可能丢失数据
-c:\users\venci\documents\github\guetzli\third_party\butteraugli\butteraugli\butteraugli.cc(738): warning C4305: “初始化”: 从“double”到“float”截断
-c:\users\venci\documents\github\guetzli\third_party\butteraugli\butteraugli\butteraugli.cc(740): warning C4305: “参数”: 从“const double”到“float”截断
-c:\users\venci\documents\github\guetzli\third_party\butteraugli\butteraugli\butteraugli.cc(741): warning C4018: “<”: 有符号/无符号不匹配
-c:\users\venci\documents\github\guetzli\third_party\butteraugli\butteraugli\butteraugli.cc(744): warning C4018: “<”: 有符号/无符号不匹配
-c:\users\venci\documents\github\guetzli\third_party\butteraugli\butteraugli\butteraugli.cc(745): warning C4244: “+=”: 从“double”转换到“float”，可能丢失数据
-c:\users\venci\documents\github\guetzli\third_party\butteraugli\butteraugli\butteraugli.cc(776): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
-c:\users\venci\documents\github\guetzli\third_party\butteraugli\butteraugli\butteraugli.cc(777): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
-c:\users\venci\documents\github\guetzli\third_party\butteraugli\butteraugli\butteraugli.cc(1643): warning C4018: “<”: 有符号/无符号不匹配
-c:\users\venci\documents\github\guetzli\third_party\butteraugli\butteraugli\butteraugli.cc(1731): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
-c:\users\venci\documents\github\guetzli\third_party\butteraugli\butteraugli\butteraugli.cc(1734): warning C4305: “=”: 从“double”到“float”截断
-c:\users\venci\documents\github\guetzli\third_party\butteraugli\butteraugli\butteraugli.cc(1765): warning C4305: “参数”: 从“const double”到“float”截断
-c:\users\venci\documents\github\guetzli\third_party\butteraugli\butteraugli\butteraugli.cc(1777): warning C4305: “参数”: 从“const double”到“float”截断
-c:\users\venci\documents\github\guetzli\third_party\butteraugli\butteraugli\butteraugli.cc(1778): warning C4305: “参数”: 从“const double”到“float”截断
-c:\users\venci\documents\github\guetzli\third_party\butteraugli\butteraugli\butteraugli.cc(1784): warning C4244: “=”: 从“const double”转换到“float”，可能丢失数据
-c:\users\venci\documents\github\guetzli\third_party\butteraugli\butteraugli\butteraugli.cc(1809): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
-c:\users\venci\documents\github\guetzli\third_party\butteraugli\butteraugli\butteraugli.cc(1810): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
-c:\users\venci\documents\github\guetzli\third_party\butteraugli\butteraugli\butteraugli.cc(1811): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
-c:\users\venci\documents\github\guetzli\third_party\butteraugli\butteraugli\butteraugli.cc(1812): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
-c:\users\venci\documents\github\guetzli\third_party\butteraugli\butteraugli\butteraugli.cc(1813): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
-c:\users\venci\documents\github\guetzli\third_party\butteraugli\butteraugli\butteraugli.cc(1814): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
-c:\users\venci\documents\github\guetzli\third_party\butteraugli\butteraugli\butteraugli.cc(1837): warning C4018: “<”: 有符号/无符号不匹配
-c:\users\venci\documents\github\guetzli\third_party\butteraugli\butteraugli\butteraugli.cc(1838): warning C4018: “<”: 有符号/无符号不匹配
-c:\users\venci\documents\github\guetzli\third_party\butteraugli\butteraugli\butteraugli.cc(1849): warning C4018: “<”: 有符号/无符号不匹配
-c:\users\venci\documents\github\guetzli\third_party\butteraugli\butteraugli\butteraugli.cc(1850): warning C4018: “<”: 有符号/无符号不匹配
-c:\users\venci\documents\github\guetzli\third_party\butteraugli\butteraugli\butteraugli.h(234): warning C4018: “<”: 有符号/无符号不匹配
-  c:\users\venci\documents\github\guetzli\third_party\butteraugli\butteraugli\butteraugli.h(227): note: 编译 类 模板 成员函数 "butteraugli::Image<float>::Image(const size_t,const size_t,float)" 时
-  c:\users\venci\documents\github\guetzli\third_party\butteraugli\butteraugli\butteraugli.cc(827): note: 参见对正在编译的函数 模板 实例化“butteraugli::Image<float>::Image(const size_t,const size_t,float)”的引用
-  c:\users\venci\documents\github\guetzli\third_party\butteraugli\butteraugli\butteraugli.cc(103): note: 参见对正在编译的 类 模板 实例化 "butteraugli::Image<float>" 的引用
-c:\users\venci\documents\github\guetzli\third_party\butteraugli\butteraugli\butteraugli.h(518): warning C4305: “初始化”: 从“double”到“V”截断
-          with
-          [
-              V=float
-          ]
-  c:\users\venci\documents\github\guetzli\third_party\butteraugli\butteraugli\butteraugli.cc(349): note: 参见对正在编译的函数 模板 实例化“void butteraugli::OpsinAbsorbance<float>(const V &,const V &,const V &,V *__restrict ,V *__restrict ,V *__restrict )”的引用
-          with
-          [
-              V=float
-          ]
-c:\users\venci\documents\github\guetzli\third_party\butteraugli\butteraugli\butteraugli.h(519): warning C4305: “初始化”: 从“double”到“V”截断
-          with
-          [
-              V=float
-          ]
-c:\users\venci\documents\github\guetzli\third_party\butteraugli\butteraugli\butteraugli.h(520): warning C4305: “初始化”: 从“double”到“V”截断
-          with
-          [
-              V=float
-          ]
-c:\users\venci\documents\github\guetzli\third_party\butteraugli\butteraugli\butteraugli.h(521): warning C4305: “初始化”: 从“double”到“V”截断
-          with
-          [
-              V=float
-          ]
-c:\users\venci\documents\github\guetzli\third_party\butteraugli\butteraugli\butteraugli.h(522): warning C4305: “初始化”: 从“double”到“V”截断
-          with
-          [
-              V=float
-          ]
-c:\users\venci\documents\github\guetzli\third_party\butteraugli\butteraugli\butteraugli.h(523): warning C4305: “初始化”: 从“double”到“V”截断
-          with
-          [
-              V=float
-          ]
-c:\users\venci\documents\github\guetzli\third_party\butteraugli\butteraugli\butteraugli.h(524): warning C4305: “初始化”: 从“double”到“V”截断
-          with
-          [
-              V=float
-          ]
-c:\users\venci\documents\github\guetzli\third_party\butteraugli\butteraugli\butteraugli.h(525): warning C4305: “初始化”: 从“double”到“V”截断
-          with
-          [
-              V=float
-          ]
-c:\users\venci\documents\github\guetzli\third_party\butteraugli\butteraugli\butteraugli.h(526): warning C4305: “初始化”: 从“double”到“V”截断
-          with
-          [
-              V=float
-          ]
-c:\users\venci\documents\github\guetzli\third_party\butteraugli\butteraugli\butteraugli.h(527): warning C4305: “初始化”: 从“double”到“V”截断
-          with
-          [
-              V=float
-          ]
-c:\users\venci\documents\github\guetzli\third_party\butteraugli\butteraugli\butteraugli.h(528): warning C4305: “初始化”: 从“double”到“V”截断
-          with
-          [
-              V=float
-          ]
-c:\users\venci\documents\github\guetzli\third_party\butteraugli\butteraugli\butteraugli.h(529): warning C4305: “初始化”: 从“double”到“V”截断
-          with
-          [
-              V=float
-          ]
-c:\users\venci\documents\github\guetzli\third_party\butteraugli\butteraugli\butteraugli.cc(391): warning C4305: “初始化”: 从“double”到“V”截断
-          with
-          [
-              V=float
-          ]
-  c:\users\venci\documents\github\guetzli\third_party\butteraugli\butteraugli\butteraugli.cc(616): note: 参见对正在编译的函数 模板 实例化“void butteraugli::XybLowFreqToVals<float>(const V &,const V &,const V &,V *__restrict ,V *__restrict ,V *__restrict )”的引用
-          with
-          [
-              V=float
-          ]
-c:\users\venci\documents\github\guetzli\third_party\butteraugli\butteraugli\butteraugli.cc(392): warning C4305: “初始化”: 从“double”到“V”截断
-          with
-          [
-              V=float
-          ]
-c:\users\venci\documents\github\guetzli\third_party\butteraugli\butteraugli\butteraugli.cc(393): warning C4305: “初始化”: 从“double”到“V”截断
-          with
-          [
-              V=float
-          ]
-c:\users\venci\documents\github\guetzli\third_party\butteraugli\butteraugli\butteraugli.cc(394): warning C4305: “初始化”: 从“double”到“V”截断
-          with
-          [
-              V=float
-          ]
-c:\users\venci\documents\github\guetzli\third_party\butteraugli\butteraugli\butteraugli.cc(1469): warning C4305: “初始化”: 从“double”到“float”截断
-  c:\users\venci\documents\github\guetzli\third_party\butteraugli\butteraugli\butteraugli.cc(1580): note: 参见对正在编译的函数 模板 实例化“void butteraugli::MaltaDiffMapImpl<butteraugli::MaltaTag>(const butteraugli::ImageF &,const butteraugli::ImageF &,const size_t,const size_t,const double,const double,double,const double,const double,butteraugli::ImageF *)”的引用
-c:\users\venci\documents\github\guetzli\third_party\butteraugli\butteraugli\butteraugli.cc(1473): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
-c:\users\venci\documents\github\guetzli\third_party\butteraugli\butteraugli\butteraugli.cc(1473): warning C4244: “初始化”: 从“double”转换到“const float”，可能丢失数据
-c:\users\venci\documents\github\guetzli\third_party\butteraugli\butteraugli\butteraugli.cc(1474): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
-c:\users\venci\documents\github\guetzli\third_party\butteraugli\butteraugli\butteraugli.cc(1474): warning C4244: “初始化”: 从“double”转换到“const float”，可能丢失数据
-c:\users\venci\documents\github\guetzli\third_party\butteraugli\butteraugli\butteraugli.cc(1481): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
-c:\users\venci\documents\github\guetzli\third_party\butteraugli\butteraugli\butteraugli.cc(1481): warning C4244: “初始化”: 从“double”转换到“const float”，可能丢失数据
-c:\users\venci\documents\github\guetzli\third_party\butteraugli\butteraugli\butteraugli.cc(1499): warning C4244: “-=”: 从“double”转换到“_Ty”，可能丢失数据
-          with
-          [
-              _Ty=float
-          ]
-c:\users\venci\documents\github\guetzli\third_party\butteraugli\butteraugli\butteraugli.cc(1501): warning C4244: “+=”: 从“double”转换到“_Ty”，可能丢失数据
-          with
-          [
-              _Ty=float
-          ]
-c:\users\venci\documents\github\guetzli\third_party\butteraugli\butteraugli\butteraugli.cc(1506): warning C4244: “-=”: 从“double”转换到“_Ty”，可能丢失数据
-          with
-          [
-              _Ty=float
-          ]
-c:\users\venci\documents\github\guetzli\third_party\butteraugli\butteraugli\butteraugli.cc(1508): warning C4244: “+=”: 从“double”转换到“_Ty”，可能丢失数据
-          with
-          [
-              _Ty=float
-          ]
-c:\users\venci\documents\github\guetzli\third_party\butteraugli\butteraugli\butteraugli.cc(1515): warning C4244: “-=”: 从“double”转换到“_Ty”，可能丢失数据
-          with
-          [
-              _Ty=float
-          ]
-c:\users\venci\documents\github\guetzli\third_party\butteraugli\butteraugli\butteraugli.cc(1517): warning C4244: “+=”: 从“double”转换到“_Ty”，可能丢失数据
-          with
-          [
-              _Ty=float
-          ]
-c:\users\venci\documents\github\guetzli\third_party\butteraugli\butteraugli\butteraugli.cc(1522): warning C4244: “-=”: 从“double”转换到“_Ty”，可能丢失数据
-          with
-          [
-              _Ty=float
-          ]
-c:\users\venci\documents\github\guetzli\third_party\butteraugli\butteraugli\butteraugli.cc(1524): warning C4244: “+=”: 从“double”转换到“_Ty”，可能丢失数据
-          with
-          [
-              _Ty=float
-          ]
-c:\users\venci\documents\github\guetzli\third_party\butteraugli\butteraugli\butteraugli.cc(1442): warning C4018: “>=”: 有符号/无符号不匹配
-  c:\users\venci\documents\github\guetzli\third_party\butteraugli\butteraugli\butteraugli.cc(1537): note: 参见对正在编译的函数 模板 实例化“float butteraugli::PaddedMaltaUnit<false,Tag>(float *__restrict const ,const size_t,const size_t,const size_t,const size_t)”的引用
-          with
-          [
-              Tag=butteraugli::MaltaTag
-          ]
-  c:\users\venci\documents\github\guetzli\third_party\butteraugli\butteraugli\butteraugli.cc(1580): note: 参见对正在编译的函数 模板 实例化“void butteraugli::MaltaDiffMapImpl<butteraugli::MaltaTag>(const butteraugli::ImageF &,const butteraugli::ImageF &,const size_t,const size_t,const double,const double,double,const double,const double,butteraugli::ImageF *)”的引用
-c:\users\venci\documents\github\guetzli\third_party\butteraugli\butteraugli\butteraugli.cc(1449): warning C4018: “>=”: 有符号/无符号不匹配
+C:\Users\罗恬\Documents\GitHub\Guetzli\guetzli\processor.cc(688,32): warning C4244: “初始化”: 从“float”转换到“int”，可能丢失数据
+C:\Users\罗恬\Documents\GitHub\Guetzli\third_party\butteraugli\butteraugli\butteraugli.cc(147,29): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+C:\Users\罗恬\Documents\GitHub\Guetzli\third_party\butteraugli\butteraugli\butteraugli.cc(147,22): warning C4244: “初始化”: 从“double”转换到“const float”，可能丢失数据
+C:\Users\罗恬\Documents\GitHub\Guetzli\third_party\butteraugli\butteraugli\butteraugli.cc(148,39): warning C4244: “参数”: 从“float”转换到“const _Ty”，可能丢失数据
+C:\Users\罗恬\Documents\GitHub\Guetzli\third_party\butteraugli\butteraugli\butteraugli.cc(148,39): warning C4244:         with
+C:\Users\罗恬\Documents\GitHub\Guetzli\third_party\butteraugli\butteraugli\butteraugli.cc(148,39): warning C4244:         [
+C:\Users\罗恬\Documents\GitHub\Guetzli\third_party\butteraugli\butteraugli\butteraugli.cc(148,39): warning C4244:             _Ty=int
+C:\Users\罗恬\Documents\GitHub\Guetzli\third_party\butteraugli\butteraugli\butteraugli.cc(148,39): warning C4244:         ]
+C:\Users\罗恬\Documents\GitHub\Guetzli\third_party\butteraugli\butteraugli\butteraugli.cc(164,16): warning C4018: “<”: 有符号/无符号不匹配
+C:\Users\罗恬\Documents\GitHub\Guetzli\third_party\butteraugli\butteraugli\butteraugli.cc(195,34): warning C4018: “<=”: 有符号/无符号不匹配
+C:\Users\罗恬\Documents\GitHub\Guetzli\third_party\butteraugli\butteraugli\butteraugli.cc(198,21): warning C4018: “<”: 有符号/无符号不匹配
+C:\Users\罗恬\Documents\GitHub\Guetzli\third_party\butteraugli\butteraugli\butteraugli.cc(220,27): warning C4018: “<”: 有符号/无符号不匹配
+C:\Users\罗恬\Documents\GitHub\Guetzli\third_party\butteraugli\butteraugli\butteraugli.cc(331,43): warning C4305: “参数”: 从“const double”到“float”截断
+C:\Users\罗恬\Documents\GitHub\Guetzli\third_party\butteraugli\butteraugli\butteraugli.cc(351,44): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+C:\Users\罗恬\Documents\GitHub\Guetzli\third_party\butteraugli\butteraugli\butteraugli.cc(352,44): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+C:\Users\罗恬\Documents\GitHub\Guetzli\third_party\butteraugli\butteraugli\butteraugli.cc(353,44): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+C:\Users\罗恬\Documents\GitHub\Guetzli\third_party\butteraugli\butteraugli\butteraugli.cc(412,20): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+C:\Users\罗恬\Documents\GitHub\Guetzli\third_party\butteraugli\butteraugli\butteraugli.cc(436,14): warning C4305: “*=”: 从“double”到“float”截断
+C:\Users\罗恬\Documents\GitHub\Guetzli\third_party\butteraugli\butteraugli\butteraugli.cc(440,14): warning C4305: “*=”: 从“double”到“float”截断
+C:\Users\罗恬\Documents\GitHub\Guetzli\third_party\butteraugli\butteraugli\butteraugli.cc(464,19): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+C:\Users\罗恬\Documents\GitHub\Guetzli\third_party\butteraugli\butteraugli\butteraugli.cc(483,26): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+C:\Users\罗恬\Documents\GitHub\Guetzli\third_party\butteraugli\butteraugli\butteraugli.cc(510,39): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+C:\Users\罗恬\Documents\GitHub\Guetzli\third_party\butteraugli\butteraugli\butteraugli.cc(510,48): warning C4305: “参数”: 从“const double”到“float”截断
+C:\Users\罗恬\Documents\GitHub\Guetzli\third_party\butteraugli\butteraugli\butteraugli.cc(519,43): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+C:\Users\罗恬\Documents\GitHub\Guetzli\third_party\butteraugli\butteraugli\butteraugli.cc(519,52): warning C4305: “参数”: 从“const double”到“float”截断
+C:\Users\罗恬\Documents\GitHub\Guetzli\third_party\butteraugli\butteraugli\butteraugli.cc(531,41): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+C:\Users\罗恬\Documents\GitHub\Guetzli\third_party\butteraugli\butteraugli\butteraugli.cc(531,50): warning C4305: “参数”: 从“const double”到“float”截断
+C:\Users\罗恬\Documents\GitHub\Guetzli\third_party\butteraugli\butteraugli\butteraugli.cc(540,58): warning C4305: “参数”: 从“const double”到“float”截断
+C:\Users\罗恬\Documents\GitHub\Guetzli\third_party\butteraugli\butteraugli\butteraugli.cc(549,59): warning C4305: “参数”: 从“const double”到“float”截断
+C:\Users\罗恬\Documents\GitHub\Guetzli\third_party\butteraugli\butteraugli\butteraugli.cc(568,42): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+C:\Users\罗恬\Documents\GitHub\Guetzli\third_party\butteraugli\butteraugli\butteraugli.cc(568,51): warning C4305: “参数”: 从“const double”到“float”截断
+C:\Users\罗恬\Documents\GitHub\Guetzli\third_party\butteraugli\butteraugli\butteraugli.cc(572,54): warning C4305: “初始化”: 从“double”到“float”截断
+C:\Users\罗恬\Documents\GitHub\Guetzli\third_party\butteraugli\butteraugli\butteraugli.cc(573,50): warning C4305: “初始化”: 从“double”到“float”截断
+C:\Users\罗恬\Documents\GitHub\Guetzli\third_party\butteraugli\butteraugli\butteraugli.cc(575,55): warning C4305: “初始化”: 从“double”到“float”截断
+C:\Users\罗恬\Documents\GitHub\Guetzli\third_party\butteraugli\butteraugli\butteraugli.cc(576,51): warning C4305: “初始化”: 从“double”到“float”截断
+C:\Users\罗恬\Documents\GitHub\Guetzli\third_party\butteraugli\butteraugli\butteraugli.cc(585,70): warning C4305: “参数”: 从“const double”到“float”截断
+C:\Users\罗恬\Documents\GitHub\Guetzli\third_party\butteraugli\butteraugli\butteraugli.cc(595,58): warning C4305: “参数”: 从“const double”到“float”截断
+C:\Users\罗恬\Documents\GitHub\Guetzli\third_party\butteraugli\butteraugli\butteraugli.cc(596,61): warning C4305: “参数”: 从“const double”到“float”截断
+C:\Users\罗恬\Documents\GitHub\Guetzli\third_party\butteraugli\butteraugli\butteraugli.cc(639,18): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+C:\Users\罗恬\Documents\GitHub\Guetzli\third_party\butteraugli\butteraugli\butteraugli.cc(643,27): warning C4244: “参数”: 从“const double”转换到“float”，可能丢失数据
+C:\Users\罗恬\Documents\GitHub\Guetzli\third_party\butteraugli\butteraugli\butteraugli.cc(649,37): warning C4244: “+=”: 从“double”转换到“float”，可能丢失数据
+C:\Users\罗恬\Documents\GitHub\Guetzli\third_party\butteraugli\butteraugli\butteraugli.cc(665,37): warning C4244: “+=”: 从“double”转换到“float”，可能丢失数据
+C:\Users\罗恬\Documents\GitHub\Guetzli\third_party\butteraugli\butteraugli\butteraugli.cc(688,42): warning C4244: “+=”: 从“double”转换到“float”，可能丢失数据
+C:\Users\罗恬\Documents\GitHub\Guetzli\third_party\butteraugli\butteraugli\butteraugli.cc(698,40): warning C4244: “+=”: 从“double”转换到“float”，可能丢失数据
+C:\Users\罗恬\Documents\GitHub\Guetzli\third_party\butteraugli\butteraugli\butteraugli.cc(701,40): warning C4244: “+=”: 从“double”转换到“float”，可能丢失数据
+C:\Users\罗恬\Documents\GitHub\Guetzli\third_party\butteraugli\butteraugli\butteraugli.cc(706,40): warning C4244: “+=”: 从“double”转换到“float”，可能丢失数据
+C:\Users\罗恬\Documents\GitHub\Guetzli\third_party\butteraugli\butteraugli\butteraugli.cc(709,40): warning C4244: “+=”: 从“double”转换到“float”，可能丢失数据
+C:\Users\罗恬\Documents\GitHub\Guetzli\third_party\butteraugli\butteraugli\butteraugli.cc(738,52): warning C4305: “初始化”: 从“double”到“float”截断
+C:\Users\罗恬\Documents\GitHub\Guetzli\third_party\butteraugli\butteraugli\butteraugli.cc(740,56): warning C4305: “参数”: 从“const double”到“float”截断
+C:\Users\罗恬\Documents\GitHub\Guetzli\third_party\butteraugli\butteraugli\butteraugli.cc(741,23): warning C4018: “<”: 有符号/无符号不匹配
+C:\Users\罗恬\Documents\GitHub\Guetzli\third_party\butteraugli\butteraugli\butteraugli.cc(744,25): warning C4018: “<”: 有符号/无符号不匹配
+C:\Users\罗恬\Documents\GitHub\Guetzli\third_party\butteraugli\butteraugli\butteraugli.cc(745,40): warning C4244: “+=”: 从“double”转换到“float”，可能丢失数据
+C:\Users\罗恬\Documents\GitHub\Guetzli\third_party\butteraugli\butteraugli\butteraugli.cc(776,35): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+C:\Users\罗恬\Documents\GitHub\Guetzli\third_party\butteraugli\butteraugli\butteraugli.cc(777,35): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+C:\Users\罗恬\Documents\GitHub\Guetzli\third_party\butteraugli\butteraugli\butteraugli.cc(1643,21): warning C4018: “<”: 有符号/无符号不匹配
+C:\Users\罗恬\Documents\GitHub\Guetzli\third_party\butteraugli\butteraugli\butteraugli.cc(1731,25): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+C:\Users\罗恬\Documents\GitHub\Guetzli\third_party\butteraugli\butteraugli\butteraugli.cc(1734,28): warning C4305: “=”: 从“double”到“float”截断
+C:\Users\罗恬\Documents\GitHub\Guetzli\third_party\butteraugli\butteraugli\butteraugli.cc(1765,49): warning C4305: “参数”: 从“const double”到“float”截断
+C:\Users\罗恬\Documents\GitHub\Guetzli\third_party\butteraugli\butteraugli\butteraugli.cc(1777,50): warning C4305: “参数”: 从“const double”到“float”截断
+C:\Users\罗恬\Documents\GitHub\Guetzli\third_party\butteraugli\butteraugli\butteraugli.cc(1778,50): warning C4305: “参数”: 从“const double”到“float”截断
+C:\Users\罗恬\Documents\GitHub\Guetzli\third_party\butteraugli\butteraugli\butteraugli.cc(1784,32): warning C4244: “=”: 从“const double”转换到“float”，可能丢失数据
+C:\Users\罗恬\Documents\GitHub\Guetzli\third_party\butteraugli\butteraugli\butteraugli.cc(1809,35): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+C:\Users\罗恬\Documents\GitHub\Guetzli\third_party\butteraugli\butteraugli\butteraugli.cc(1810,35): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+C:\Users\罗恬\Documents\GitHub\Guetzli\third_party\butteraugli\butteraugli\butteraugli.cc(1811,40): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+C:\Users\罗恬\Documents\GitHub\Guetzli\third_party\butteraugli\butteraugli\butteraugli.cc(1812,40): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+C:\Users\罗恬\Documents\GitHub\Guetzli\third_party\butteraugli\butteraugli\butteraugli.cc(1813,40): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+C:\Users\罗恬\Documents\GitHub\Guetzli\third_party\butteraugli\butteraugli\butteraugli.cc(1814,43): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+C:\Users\罗恬\Documents\GitHub\Guetzli\third_party\butteraugli\butteraugli\butteraugli.cc(1837,25): warning C4018: “<”: 有符号/无符号不匹配
+C:\Users\罗恬\Documents\GitHub\Guetzli\third_party\butteraugli\butteraugli\butteraugli.cc(1838,27): warning C4018: “<”: 有符号/无符号不匹配
+C:\Users\罗恬\Documents\GitHub\Guetzli\third_party\butteraugli\butteraugli\butteraugli.cc(1849,23): warning C4018: “<”: 有符号/无符号不匹配
+C:\Users\罗恬\Documents\GitHub\Guetzli\third_party\butteraugli\butteraugli\butteraugli.cc(1850,25): warning C4018: “<”: 有符号/无符号不匹配
+C:\Users\罗恬\Documents\GitHub\Guetzli\third_party\butteraugli\butteraugli\butteraugli.h(234,2): warning C4018: “<”: 有符号/无符号不匹配
+C:\Users\罗恬\Documents\GitHub\Guetzli\third_party\butteraugli\butteraugli\butteraugli.h(227): message : 在编译 类 模板 成员函数“butteraugli::Image<float>::Image(const size_t,const size_t,float)”时
+C:\Users\罗恬\Documents\GitHub\Guetzli\third_party\butteraugli\butteraugli\butteraugli.cc(827): message : 查看对正在编译的函数 模板 实例化“butteraugli::Image<float>::Image(const size_t,const size_t,float)”的引用
+C:\Users\罗恬\Documents\GitHub\Guetzli\third_party\butteraugli\butteraugli\butteraugli.cc(103): message : 查看对正在编译的 类 模板 实例化“butteraugli::Image<float>”的引用
+C:\Users\罗恬\Documents\GitHub\Guetzli\third_party\butteraugli\butteraugli\butteraugli.h(518,1): warning C4305: “初始化”: 从“double”到“V”截断
+C:\Users\罗恬\Documents\GitHub\Guetzli\third_party\butteraugli\butteraugli\butteraugli.h(518,1): warning C4305:         with
+C:\Users\罗恬\Documents\GitHub\Guetzli\third_party\butteraugli\butteraugli\butteraugli.h(518,1): warning C4305:         [
+C:\Users\罗恬\Documents\GitHub\Guetzli\third_party\butteraugli\butteraugli\butteraugli.h(518,1): warning C4305:             V=float
+C:\Users\罗恬\Documents\GitHub\Guetzli\third_party\butteraugli\butteraugli\butteraugli.h(518,1): warning C4305:         ]
+C:\Users\罗恬\Documents\GitHub\Guetzli\third_party\butteraugli\butteraugli\butteraugli.cc(349): message : 查看对正在编译的函数 模板 实例化“void butteraugli::OpsinAbsorbance<float>(const V &,const V &,const V &,V *__restrict ,V *__restrict ,V *__restrict )”的引用
+C:\Users\罗恬\Documents\GitHub\Guetzli\third_party\butteraugli\butteraugli\butteraugli.cc(349): message :         with
+C:\Users\罗恬\Documents\GitHub\Guetzli\third_party\butteraugli\butteraugli\butteraugli.cc(349): message :         [
+C:\Users\罗恬\Documents\GitHub\Guetzli\third_party\butteraugli\butteraugli\butteraugli.cc(349): message :             V=float
+C:\Users\罗恬\Documents\GitHub\Guetzli\third_party\butteraugli\butteraugli\butteraugli.cc(349): message :         ]
+C:\Users\罗恬\Documents\GitHub\Guetzli\third_party\butteraugli\butteraugli\butteraugli.h(519,1): warning C4305: “初始化”: 从“double”到“V”截断
+C:\Users\罗恬\Documents\GitHub\Guetzli\third_party\butteraugli\butteraugli\butteraugli.h(519,1): warning C4305:         with
+C:\Users\罗恬\Documents\GitHub\Guetzli\third_party\butteraugli\butteraugli\butteraugli.h(519,1): warning C4305:         [
+C:\Users\罗恬\Documents\GitHub\Guetzli\third_party\butteraugli\butteraugli\butteraugli.h(519,1): warning C4305:             V=float
+C:\Users\罗恬\Documents\GitHub\Guetzli\third_party\butteraugli\butteraugli\butteraugli.h(519,1): warning C4305:         ]
+C:\Users\罗恬\Documents\GitHub\Guetzli\third_party\butteraugli\butteraugli\butteraugli.h(520,1): warning C4305: “初始化”: 从“double”到“V”截断
+C:\Users\罗恬\Documents\GitHub\Guetzli\third_party\butteraugli\butteraugli\butteraugli.h(520,1): warning C4305:         with
+C:\Users\罗恬\Documents\GitHub\Guetzli\third_party\butteraugli\butteraugli\butteraugli.h(520,1): warning C4305:         [
+C:\Users\罗恬\Documents\GitHub\Guetzli\third_party\butteraugli\butteraugli\butteraugli.h(520,1): warning C4305:             V=float
+C:\Users\罗恬\Documents\GitHub\Guetzli\third_party\butteraugli\butteraugli\butteraugli.h(520,1): warning C4305:         ]
+C:\Users\罗恬\Documents\GitHub\Guetzli\third_party\butteraugli\butteraugli\butteraugli.h(521,1): warning C4305: “初始化”: 从“double”到“V”截断
+C:\Users\罗恬\Documents\GitHub\Guetzli\third_party\butteraugli\butteraugli\butteraugli.h(521,1): warning C4305:         with
+C:\Users\罗恬\Documents\GitHub\Guetzli\third_party\butteraugli\butteraugli\butteraugli.h(521,1): warning C4305:         [
+C:\Users\罗恬\Documents\GitHub\Guetzli\third_party\butteraugli\butteraugli\butteraugli.h(521,1): warning C4305:             V=float
+C:\Users\罗恬\Documents\GitHub\Guetzli\third_party\butteraugli\butteraugli\butteraugli.h(521,1): warning C4305:         ]
+C:\Users\罗恬\Documents\GitHub\Guetzli\third_party\butteraugli\butteraugli\butteraugli.h(522,1): warning C4305: “初始化”: 从“double”到“V”截断
+C:\Users\罗恬\Documents\GitHub\Guetzli\third_party\butteraugli\butteraugli\butteraugli.h(522,1): warning C4305:         with
+C:\Users\罗恬\Documents\GitHub\Guetzli\third_party\butteraugli\butteraugli\butteraugli.h(522,1): warning C4305:         [
+C:\Users\罗恬\Documents\GitHub\Guetzli\third_party\butteraugli\butteraugli\butteraugli.h(522,1): warning C4305:             V=float
+C:\Users\罗恬\Documents\GitHub\Guetzli\third_party\butteraugli\butteraugli\butteraugli.h(522,1): warning C4305:         ]
+C:\Users\罗恬\Documents\GitHub\Guetzli\third_party\butteraugli\butteraugli\butteraugli.h(523,1): warning C4305: “初始化”: 从“double”到“V”截断
+C:\Users\罗恬\Documents\GitHub\Guetzli\third_party\butteraugli\butteraugli\butteraugli.h(523,1): warning C4305:         with
+C:\Users\罗恬\Documents\GitHub\Guetzli\third_party\butteraugli\butteraugli\butteraugli.h(523,1): warning C4305:         [
+C:\Users\罗恬\Documents\GitHub\Guetzli\third_party\butteraugli\butteraugli\butteraugli.h(523,1): warning C4305:             V=float
+C:\Users\罗恬\Documents\GitHub\Guetzli\third_party\butteraugli\butteraugli\butteraugli.h(523,1): warning C4305:         ]
+C:\Users\罗恬\Documents\GitHub\Guetzli\third_party\butteraugli\butteraugli\butteraugli.h(524,1): warning C4305: “初始化”: 从“double”到“V”截断
+C:\Users\罗恬\Documents\GitHub\Guetzli\third_party\butteraugli\butteraugli\butteraugli.h(524,1): warning C4305:         with
+C:\Users\罗恬\Documents\GitHub\Guetzli\third_party\butteraugli\butteraugli\butteraugli.h(524,1): warning C4305:         [
+C:\Users\罗恬\Documents\GitHub\Guetzli\third_party\butteraugli\butteraugli\butteraugli.h(524,1): warning C4305:             V=float
+C:\Users\罗恬\Documents\GitHub\Guetzli\third_party\butteraugli\butteraugli\butteraugli.h(524,1): warning C4305:         ]
+C:\Users\罗恬\Documents\GitHub\Guetzli\third_party\butteraugli\butteraugli\butteraugli.h(525,1): warning C4305: “初始化”: 从“double”到“V”截断
+C:\Users\罗恬\Documents\GitHub\Guetzli\third_party\butteraugli\butteraugli\butteraugli.h(525,1): warning C4305:         with
+C:\Users\罗恬\Documents\GitHub\Guetzli\third_party\butteraugli\butteraugli\butteraugli.h(525,1): warning C4305:         [
+C:\Users\罗恬\Documents\GitHub\Guetzli\third_party\butteraugli\butteraugli\butteraugli.h(525,1): warning C4305:             V=float
+C:\Users\罗恬\Documents\GitHub\Guetzli\third_party\butteraugli\butteraugli\butteraugli.h(525,1): warning C4305:         ]
+C:\Users\罗恬\Documents\GitHub\Guetzli\third_party\butteraugli\butteraugli\butteraugli.h(526,1): warning C4305: “初始化”: 从“double”到“V”截断
+C:\Users\罗恬\Documents\GitHub\Guetzli\third_party\butteraugli\butteraugli\butteraugli.h(526,1): warning C4305:         with
+C:\Users\罗恬\Documents\GitHub\Guetzli\third_party\butteraugli\butteraugli\butteraugli.h(526,1): warning C4305:         [
+C:\Users\罗恬\Documents\GitHub\Guetzli\third_party\butteraugli\butteraugli\butteraugli.h(526,1): warning C4305:             V=float
+C:\Users\罗恬\Documents\GitHub\Guetzli\third_party\butteraugli\butteraugli\butteraugli.h(526,1): warning C4305:         ]
+C:\Users\罗恬\Documents\GitHub\Guetzli\third_party\butteraugli\butteraugli\butteraugli.h(527,1): warning C4305: “初始化”: 从“double”到“V”截断
+C:\Users\罗恬\Documents\GitHub\Guetzli\third_party\butteraugli\butteraugli\butteraugli.h(527,1): warning C4305:         with
+C:\Users\罗恬\Documents\GitHub\Guetzli\third_party\butteraugli\butteraugli\butteraugli.h(527,1): warning C4305:         [
+C:\Users\罗恬\Documents\GitHub\Guetzli\third_party\butteraugli\butteraugli\butteraugli.h(527,1): warning C4305:             V=float
+C:\Users\罗恬\Documents\GitHub\Guetzli\third_party\butteraugli\butteraugli\butteraugli.h(527,1): warning C4305:         ]
+C:\Users\罗恬\Documents\GitHub\Guetzli\third_party\butteraugli\butteraugli\butteraugli.h(528,1): warning C4305: “初始化”: 从“double”到“V”截断
+C:\Users\罗恬\Documents\GitHub\Guetzli\third_party\butteraugli\butteraugli\butteraugli.h(528,1): warning C4305:         with
+C:\Users\罗恬\Documents\GitHub\Guetzli\third_party\butteraugli\butteraugli\butteraugli.h(528,1): warning C4305:         [
+C:\Users\罗恬\Documents\GitHub\Guetzli\third_party\butteraugli\butteraugli\butteraugli.h(528,1): warning C4305:             V=float
+C:\Users\罗恬\Documents\GitHub\Guetzli\third_party\butteraugli\butteraugli\butteraugli.h(528,1): warning C4305:         ]
+C:\Users\罗恬\Documents\GitHub\Guetzli\third_party\butteraugli\butteraugli\butteraugli.h(529,1): warning C4305: “初始化”: 从“double”到“V”截断
+C:\Users\罗恬\Documents\GitHub\Guetzli\third_party\butteraugli\butteraugli\butteraugli.h(529,1): warning C4305:         with
+C:\Users\罗恬\Documents\GitHub\Guetzli\third_party\butteraugli\butteraugli\butteraugli.h(529,1): warning C4305:         [
+C:\Users\罗恬\Documents\GitHub\Guetzli\third_party\butteraugli\butteraugli\butteraugli.h(529,1): warning C4305:             V=float
+C:\Users\罗恬\Documents\GitHub\Guetzli\third_party\butteraugli\butteraugli\butteraugli.h(529,1): warning C4305:         ]
+C:\Users\罗恬\Documents\GitHub\Guetzli\third_party\butteraugli\butteraugli\butteraugli.cc(391,1): warning C4305: “初始化”: 从“double”到“V”截断
+C:\Users\罗恬\Documents\GitHub\Guetzli\third_party\butteraugli\butteraugli\butteraugli.cc(391,1): warning C4305:         with
+C:\Users\罗恬\Documents\GitHub\Guetzli\third_party\butteraugli\butteraugli\butteraugli.cc(391,1): warning C4305:         [
+C:\Users\罗恬\Documents\GitHub\Guetzli\third_party\butteraugli\butteraugli\butteraugli.cc(391,1): warning C4305:             V=float
+C:\Users\罗恬\Documents\GitHub\Guetzli\third_party\butteraugli\butteraugli\butteraugli.cc(391,1): warning C4305:         ]
+C:\Users\罗恬\Documents\GitHub\Guetzli\third_party\butteraugli\butteraugli\butteraugli.cc(616): message : 查看对正在编译的函数 模板 实例化“void butteraugli::XybLowFreqToVals<float>(const V &,const V &,const V &,V *__restrict ,V *__restrict ,V *__restrict )”的引用
+C:\Users\罗恬\Documents\GitHub\Guetzli\third_party\butteraugli\butteraugli\butteraugli.cc(616): message :         with
+C:\Users\罗恬\Documents\GitHub\Guetzli\third_party\butteraugli\butteraugli\butteraugli.cc(616): message :         [
+C:\Users\罗恬\Documents\GitHub\Guetzli\third_party\butteraugli\butteraugli\butteraugli.cc(616): message :             V=float
+C:\Users\罗恬\Documents\GitHub\Guetzli\third_party\butteraugli\butteraugli\butteraugli.cc(616): message :         ]
+C:\Users\罗恬\Documents\GitHub\Guetzli\third_party\butteraugli\butteraugli\butteraugli.cc(392,1): warning C4305: “初始化”: 从“double”到“V”截断
+C:\Users\罗恬\Documents\GitHub\Guetzli\third_party\butteraugli\butteraugli\butteraugli.cc(392,1): warning C4305:         with
+C:\Users\罗恬\Documents\GitHub\Guetzli\third_party\butteraugli\butteraugli\butteraugli.cc(392,1): warning C4305:         [
+C:\Users\罗恬\Documents\GitHub\Guetzli\third_party\butteraugli\butteraugli\butteraugli.cc(392,1): warning C4305:             V=float
+C:\Users\罗恬\Documents\GitHub\Guetzli\third_party\butteraugli\butteraugli\butteraugli.cc(392,1): warning C4305:         ]
+C:\Users\罗恬\Documents\GitHub\Guetzli\third_party\butteraugli\butteraugli\butteraugli.cc(393,1): warning C4305: “初始化”: 从“double”到“V”截断
+C:\Users\罗恬\Documents\GitHub\Guetzli\third_party\butteraugli\butteraugli\butteraugli.cc(393,1): warning C4305:         with
+C:\Users\罗恬\Documents\GitHub\Guetzli\third_party\butteraugli\butteraugli\butteraugli.cc(393,1): warning C4305:         [
+C:\Users\罗恬\Documents\GitHub\Guetzli\third_party\butteraugli\butteraugli\butteraugli.cc(393,1): warning C4305:             V=float
+C:\Users\罗恬\Documents\GitHub\Guetzli\third_party\butteraugli\butteraugli\butteraugli.cc(393,1): warning C4305:         ]
+C:\Users\罗恬\Documents\GitHub\Guetzli\third_party\butteraugli\butteraugli\butteraugli.cc(394,1): warning C4305: “初始化”: 从“double”到“V”截断
+C:\Users\罗恬\Documents\GitHub\Guetzli\third_party\butteraugli\butteraugli\butteraugli.cc(394,1): warning C4305:         with
+C:\Users\罗恬\Documents\GitHub\Guetzli\third_party\butteraugli\butteraugli\butteraugli.cc(394,1): warning C4305:         [
+C:\Users\罗恬\Documents\GitHub\Guetzli\third_party\butteraugli\butteraugli\butteraugli.cc(394,1): warning C4305:             V=float
+C:\Users\罗恬\Documents\GitHub\Guetzli\third_party\butteraugli\butteraugli\butteraugli.cc(394,1): warning C4305:         ]
+C:\Users\罗恬\Documents\GitHub\Guetzli\third_party\butteraugli\butteraugli\butteraugli.cc(1469,1): warning C4305: “初始化”: 从“double”到“float”截断
+C:\Users\罗恬\Documents\GitHub\Guetzli\third_party\butteraugli\butteraugli\butteraugli.cc(1580): message : 查看对正在编译的函数 模板 实例化“void butteraugli::MaltaDiffMapImpl<butteraugli::MaltaTag>(const butteraugli::ImageF &,const butteraugli::ImageF &,const size_t,const size_t,const double,const double,double,const double,const double,butteraugli::ImageF *)”的引用
+C:\Users\罗恬\Documents\GitHub\Guetzli\third_party\butteraugli\butteraugli\butteraugli.cc(1473,38): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+C:\Users\罗恬\Documents\GitHub\Guetzli\third_party\butteraugli\butteraugli\butteraugli.cc(1473,26): warning C4244: “初始化”: 从“double”转换到“const float”，可能丢失数据
+C:\Users\罗恬\Documents\GitHub\Guetzli\third_party\butteraugli\butteraugli\butteraugli.cc(1474,38): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+C:\Users\罗恬\Documents\GitHub\Guetzli\third_party\butteraugli\butteraugli\butteraugli.cc(1474,26): warning C4244: “初始化”: 从“double”转换到“const float”，可能丢失数据
+C:\Users\罗恬\Documents\GitHub\Guetzli\third_party\butteraugli\butteraugli\butteraugli.cc(1481,52): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+C:\Users\罗恬\Documents\GitHub\Guetzli\third_party\butteraugli\butteraugli\butteraugli.cc(1481,26): warning C4244: “初始化”: 从“double”转换到“const float”，可能丢失数据
+C:\Users\罗恬\Documents\GitHub\Guetzli\third_party\butteraugli\butteraugli\butteraugli.cc(1499,1): warning C4244: “-=”: 从“double”转换到“_Ty”，可能丢失数据
+C:\Users\罗恬\Documents\GitHub\Guetzli\third_party\butteraugli\butteraugli\butteraugli.cc(1499,1): warning C4244:         with
+C:\Users\罗恬\Documents\GitHub\Guetzli\third_party\butteraugli\butteraugli\butteraugli.cc(1499,1): warning C4244:         [
+C:\Users\罗恬\Documents\GitHub\Guetzli\third_party\butteraugli\butteraugli\butteraugli.cc(1499,1): warning C4244:             _Ty=float
+C:\Users\罗恬\Documents\GitHub\Guetzli\third_party\butteraugli\butteraugli\butteraugli.cc(1499,1): warning C4244:         ]
+C:\Users\罗恬\Documents\GitHub\Guetzli\third_party\butteraugli\butteraugli\butteraugli.cc(1501,1): warning C4244: “+=”: 从“double”转换到“_Ty”，可能丢失数据
+C:\Users\罗恬\Documents\GitHub\Guetzli\third_party\butteraugli\butteraugli\butteraugli.cc(1501,1): warning C4244:         with
+C:\Users\罗恬\Documents\GitHub\Guetzli\third_party\butteraugli\butteraugli\butteraugli.cc(1501,1): warning C4244:         [
+C:\Users\罗恬\Documents\GitHub\Guetzli\third_party\butteraugli\butteraugli\butteraugli.cc(1501,1): warning C4244:             _Ty=float
+C:\Users\罗恬\Documents\GitHub\Guetzli\third_party\butteraugli\butteraugli\butteraugli.cc(1501,1): warning C4244:         ]
+C:\Users\罗恬\Documents\GitHub\Guetzli\third_party\butteraugli\butteraugli\butteraugli.cc(1506,1): warning C4244: “-=”: 从“double”转换到“_Ty”，可能丢失数据
+C:\Users\罗恬\Documents\GitHub\Guetzli\third_party\butteraugli\butteraugli\butteraugli.cc(1506,1): warning C4244:         with
+C:\Users\罗恬\Documents\GitHub\Guetzli\third_party\butteraugli\butteraugli\butteraugli.cc(1506,1): warning C4244:         [
+C:\Users\罗恬\Documents\GitHub\Guetzli\third_party\butteraugli\butteraugli\butteraugli.cc(1506,1): warning C4244:             _Ty=float
+C:\Users\罗恬\Documents\GitHub\Guetzli\third_party\butteraugli\butteraugli\butteraugli.cc(1506,1): warning C4244:         ]
+C:\Users\罗恬\Documents\GitHub\Guetzli\third_party\butteraugli\butteraugli\butteraugli.cc(1508,1): warning C4244: “+=”: 从“double”转换到“_Ty”，可能丢失数据
+C:\Users\罗恬\Documents\GitHub\Guetzli\third_party\butteraugli\butteraugli\butteraugli.cc(1508,1): warning C4244:         with
+C:\Users\罗恬\Documents\GitHub\Guetzli\third_party\butteraugli\butteraugli\butteraugli.cc(1508,1): warning C4244:         [
+C:\Users\罗恬\Documents\GitHub\Guetzli\third_party\butteraugli\butteraugli\butteraugli.cc(1508,1): warning C4244:             _Ty=float
+C:\Users\罗恬\Documents\GitHub\Guetzli\third_party\butteraugli\butteraugli\butteraugli.cc(1508,1): warning C4244:         ]
+C:\Users\罗恬\Documents\GitHub\Guetzli\third_party\butteraugli\butteraugli\butteraugli.cc(1515,1): warning C4244: “-=”: 从“double”转换到“_Ty”，可能丢失数据
+C:\Users\罗恬\Documents\GitHub\Guetzli\third_party\butteraugli\butteraugli\butteraugli.cc(1515,1): warning C4244:         with
+C:\Users\罗恬\Documents\GitHub\Guetzli\third_party\butteraugli\butteraugli\butteraugli.cc(1515,1): warning C4244:         [
+C:\Users\罗恬\Documents\GitHub\Guetzli\third_party\butteraugli\butteraugli\butteraugli.cc(1515,1): warning C4244:             _Ty=float
+C:\Users\罗恬\Documents\GitHub\Guetzli\third_party\butteraugli\butteraugli\butteraugli.cc(1515,1): warning C4244:         ]
+C:\Users\罗恬\Documents\GitHub\Guetzli\third_party\butteraugli\butteraugli\butteraugli.cc(1517,1): warning C4244: “+=”: 从“double”转换到“_Ty”，可能丢失数据
+C:\Users\罗恬\Documents\GitHub\Guetzli\third_party\butteraugli\butteraugli\butteraugli.cc(1517,1): warning C4244:         with
+C:\Users\罗恬\Documents\GitHub\Guetzli\third_party\butteraugli\butteraugli\butteraugli.cc(1517,1): warning C4244:         [
+C:\Users\罗恬\Documents\GitHub\Guetzli\third_party\butteraugli\butteraugli\butteraugli.cc(1517,1): warning C4244:             _Ty=float
+C:\Users\罗恬\Documents\GitHub\Guetzli\third_party\butteraugli\butteraugli\butteraugli.cc(1517,1): warning C4244:         ]
+C:\Users\罗恬\Documents\GitHub\Guetzli\third_party\butteraugli\butteraugli\butteraugli.cc(1522,1): warning C4244: “-=”: 从“double”转换到“_Ty”，可能丢失数据
+C:\Users\罗恬\Documents\GitHub\Guetzli\third_party\butteraugli\butteraugli\butteraugli.cc(1522,1): warning C4244:         with
+C:\Users\罗恬\Documents\GitHub\Guetzli\third_party\butteraugli\butteraugli\butteraugli.cc(1522,1): warning C4244:         [
+C:\Users\罗恬\Documents\GitHub\Guetzli\third_party\butteraugli\butteraugli\butteraugli.cc(1522,1): warning C4244:             _Ty=float
+C:\Users\罗恬\Documents\GitHub\Guetzli\third_party\butteraugli\butteraugli\butteraugli.cc(1522,1): warning C4244:         ]
+C:\Users\罗恬\Documents\GitHub\Guetzli\third_party\butteraugli\butteraugli\butteraugli.cc(1524,1): warning C4244: “+=”: 从“double”转换到“_Ty”，可能丢失数据
+C:\Users\罗恬\Documents\GitHub\Guetzli\third_party\butteraugli\butteraugli\butteraugli.cc(1524,1): warning C4244:         with
+C:\Users\罗恬\Documents\GitHub\Guetzli\third_party\butteraugli\butteraugli\butteraugli.cc(1524,1): warning C4244:         [
+C:\Users\罗恬\Documents\GitHub\Guetzli\third_party\butteraugli\butteraugli\butteraugli.cc(1524,1): warning C4244:             _Ty=float
+C:\Users\罗恬\Documents\GitHub\Guetzli\third_party\butteraugli\butteraugli\butteraugli.cc(1524,1): warning C4244:         ]
+C:\Users\罗恬\Documents\GitHub\Guetzli\third_party\butteraugli\butteraugli\butteraugli.cc(1442,20): warning C4018: “>=”: 有符号/无符号不匹配
+C:\Users\罗恬\Documents\GitHub\Guetzli\third_party\butteraugli\butteraugli\butteraugli.cc(1537): message : 查看对正在编译的函数 模板 实例化“float butteraugli::PaddedMaltaUnit<false,Tag>(float *__restrict const ,const size_t,const size_t,const size_t,const size_t)”的引用
+C:\Users\罗恬\Documents\GitHub\Guetzli\third_party\butteraugli\butteraugli\butteraugli.cc(1537): message :         with
+C:\Users\罗恬\Documents\GitHub\Guetzli\third_party\butteraugli\butteraugli\butteraugli.cc(1537): message :         [
+C:\Users\罗恬\Documents\GitHub\Guetzli\third_party\butteraugli\butteraugli\butteraugli.cc(1537): message :             Tag=butteraugli::MaltaTag
+C:\Users\罗恬\Documents\GitHub\Guetzli\third_party\butteraugli\butteraugli\butteraugli.cc(1537): message :         ]
+C:\Users\罗恬\Documents\GitHub\Guetzli\third_party\butteraugli\butteraugli\butteraugli.cc(1580): message : 查看对正在编译的函数 模板 实例化“void butteraugli::MaltaDiffMapImpl<butteraugli::MaltaTag>(const butteraugli::ImageF &,const butteraugli::ImageF &,const size_t,const size_t,const double,const double,double,const double,const double,butteraugli::ImageF *)”的引用
   正在生成代码...
-  guetzli_static.vcxproj -> C:\Users\Venci\Documents\GitHub\guetzli\bin\x86\Release\guetzli_static.lib
+C:\Users\罗恬\Documents\GitHub\Guetzli\third_party\butteraugli\butteraugli\butteraugli.cc(1449,24): warning C4018: “>=”: 有符号/无符号不匹配
+  guetzli_static.vcxproj -> C:\Users\罗恬\Documents\GitHub\Guetzli\bin\x86\Release\guetzli_static.lib
