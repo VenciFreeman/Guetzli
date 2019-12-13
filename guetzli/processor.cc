@@ -14,6 +14,17 @@
  * limitations under the License.
  */
 
+/*
+ * Note:
+ * 
+ * This file is the main file. We should optimize it in HLS.
+ * 
+ * Any question, please contact other team members. 
+ * 
+ * 19/12/13, @VenciFreman. 
+ * Mail: vencifreeman16@sjtu.edu.cn.
+ */
+
 #include "guetzli/processor.h"
 
 #include <algorithm>
