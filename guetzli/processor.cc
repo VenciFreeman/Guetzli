@@ -47,13 +47,13 @@ namespace guetzli {
 
 namespace {
 
-static const size_t kBlockSize = 3 * kDCTBlockSize;
+static const size_t kBlockSize = 3 * kDCTBlockSize; // Set the block size of DCT.
 
-struct CoeffData {
+struct CoeffData {  // store coefficient data.
   int idx;
   float block_err;
 };
-struct QuantData {
+struct QuantData {  // store quantify data.
   int q[3][kDCTBlockSize];
   size_t jpg_size;
   bool dist_ok;
