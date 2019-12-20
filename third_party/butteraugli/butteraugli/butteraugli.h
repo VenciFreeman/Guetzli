@@ -75,6 +75,7 @@ using ImageF = Image<float>;
 
 bool ButteraugliInterface(const std::vector<ImageF> &rgb0,
                           const std::vector<ImageF> &rgb1,
+                          float hf_asymmetry,
                           ImageF &diffmap,
                           double &diffvalue);
 
@@ -215,8 +216,7 @@ class Image {
  public:
   using T = ComponentType;
 
-  Image() : xsize_(0), ysize_(0), bytes_per_row_(0),
-            bytes_(static_cast<uint8_t*>(nullptr), Ignore) {}
+  Image() : xsize_(0), ysize_(0), bytes_per_row_(0), bytes_(nullptr, Ignore) {}
 
   Image(const size_t xsize, const size_t ysize)
       : xsize_(xsize),
@@ -424,7 +424,7 @@ struct PsychoImage {
 
 class ButteraugliComparator {
  public:
-  ButteraugliComparator(const std::vector<ImageF>& rgb0);
+  ButteraugliComparator(const std::vector<ImageF>& rgb0, double hf_asymmetry);
 
   // Computes the butteraugli map between the original image given in the
   // constructor and the distorted image give here.
@@ -463,11 +463,13 @@ class ButteraugliComparator {
   const size_t xsize_;
   const size_t ysize_;
   const size_t num_pixels_;
+  float hf_asymmetry_;
   PsychoImage pi0_;
 };
 
 void ButteraugliDiffmap(const std::vector<ImageF> &rgb0,
                         const std::vector<ImageF> &rgb1,
+                        double hf_asymmetry,
                         ImageF &diffmap);
 
 double ButteraugliScoreFromDiffmap(const ImageF& distmap);

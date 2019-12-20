@@ -371,7 +371,13 @@ int Run(int argc, char* argv[]) {
   std::vector<Image8> rgb1 = ReadImageOrDie(argv[1]);
   std::vector<Image8> rgb2 = ReadImageOrDie(argv[2]);
 
-  if (rgb1.size() != rgb2.size()) {
+  if (rgb1.size() == 3 && rgb2.size() == 4) {
+    // Adding a missing alpha channel to one of the images.
+    rgb1.push_back(Image8(rgb1[0].xsize(), rgb1[0].ysize(), 255));
+  } else if (rgb2.size() == 3 && rgb1.size() == 4) {
+    // Adding a missing alpha channel to one of the images.
+    rgb2.push_back(Image8(rgb2[0].xsize(), rgb2[0].ysize(), 255));
+  } else if (rgb1.size() != rgb2.size()) {
     fprintf(stderr, "Different number of channels: %lu vs %lu\n", rgb1.size(),
             rgb2.size());
     exit(1);
@@ -395,8 +401,8 @@ int Run(int argc, char* argv[]) {
   FromSrgbToLinear(rgb2, linear2, 0);
   ImageF diff_map, diff_map_on_white;
   double diff_value;
-  if (!butteraugli::ButteraugliInterface(linear1, linear2, diff_map,
-                                         diff_value)) {
+  if (!butteraugli::ButteraugliInterface(linear1, linear2, 1.0,
+                                         diff_map, diff_value)) {
     fprintf(stderr, "Butteraugli comparison failed\n");
     return 1;
   }
@@ -407,7 +413,8 @@ int Run(int argc, char* argv[]) {
     FromSrgbToLinear(rgb1, linear1, 255);
     FromSrgbToLinear(rgb2, linear2, 255);
     double diff_value_on_white;
-    if (!butteraugli::ButteraugliInterface(linear1, linear2, diff_map_on_white,
+    if (!butteraugli::ButteraugliInterface(linear1, linear2, 1.0,
+                                           diff_map_on_white,
                                            diff_value_on_white)) {
       fprintf(stderr, "Butteraugli comparison failed\n");
       return 1;
